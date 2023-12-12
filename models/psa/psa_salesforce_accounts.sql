@@ -8,13 +8,13 @@ renamed as (
 
     select
     
-        BATCHID,
-        COMPANYEXTID as ACCOUNTID,
-        COMPANY_NAME,
-        CITY,
-        STATE,
-        DATECREATED,
-        MODIFIEDDATE
+        "BATCHID" as batchid,
+        "COMPANYEXTID" as accountid,
+        "COMPANY_NAME" as company_name,
+        "CITY" as city,
+        "STATE" as state,
+        "DATECREATED" as datecreated,
+        "MODIFIEDDATE" as modifieddate
 
     from source
 
